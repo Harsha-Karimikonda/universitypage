@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="project2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"  />
+<title>University website </title>
+</head>
+<body>
+        <section class="header">
+            <nav>
+                <a href="project2.html"><img src="images/logo.png"</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="#ho">HOME</a></li>
+                        <li><a href="#ca">ABOUT</a></li>
+                        <li><a href="#co">COURSE</a></li>
+                        <li><a href="#bl">BLOG</a></li>
+                        <li><a href="#ab">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div id="ho" class="text-box">
+                <h1>Biggest university</h1>
+                <p> I am making this website for testing purpose</p>
+                <a href="" class="hero-btn">VIsit for more</a>
+            </div>
+        </section>
+        <section  id="co" class="course">
+                <h1>courses we offer</h1>
+                <p>We offer wide range of courses</p>
+                <div class="row">
+                    <div class="course-col">
+                        <h3>intermediate</h3>
+                        <p>
+                            We offer Intermediate and related courses
+                        </p>
+                    </div>
+                    <div class="course-col">
+                        <h3>degree</h3>
+                        <p>
+                            We offer degree and related courses
+                        </p>
+                    </div>
+                    <div class="course-col">
+                        <h3>P G</h3>
+                        <p>
+                            We offer P.G and related courses
+                        </p>
+                    </div>
+                </div>
+        
+            </section>
+            <section id="ca" class="campus">
+                    <h1>Our global campus</h1>
+                    <p>Excellent Infrastructure to get most out of Students</p>
+                    <div class="row">
+                        <div class="campus-col">
+                            <img src="images/london.png">
+                            <div class="layer">
+                                <h3>london</h3>
+                            </div>
+                        </div>
+                        <div class="campus-col">
+                            <img src="images/newyork.png">
+                            <div class="layer">
+                                <h3>NEWYORK</h3>
+                            </div>
+                        </div>
+                        <div class="campus-col">
+                            <img src="images/washington.png">
+                            <div class="layer">
+                                <h3>WASHINGTON</h3>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+         <section id="bl" class="facilities">
+                <h1>Our facilities</h1>
+                <p>Excellent facilities for Students</p>
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="images/library.png">
+                        <h3>World class library</h3>
+                        <p>To gain theoretical knowledge</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/basketball.png">
+                        <h3>Play ground</h3>
+                        <p>To maintain physical health</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/cafeteria.png">
+                        <h3>Food</h3>
+                        <p>Balanced Diet</p>
+                    </div>
+                </div>
+         </section> 
+         <section class="testimonals">
+             <h1>Our testimonals</h1>
+             <p>This is what students think of us</p>
+             <div class="row">
+                 <div class="testimonals-col">
+                     <img src="images/user1.jpg">
+                 <div>
+                     <p>It has been great experience theoretical knowledge 
+                        joined hands with practical knowledge gives excellent oppurtunity to learn
+                     </p>
+                     <h3>chris berley</h3>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star-o" ></i>
+                 </div>
+                 </div>
+                 <div class="testimonals-col">
+                    <img src="images/user2.jpg">
+                <div>
+                    <p>The Infrastructure of college gives excitment to come to college and learn;
+                         I would recommend individuals to join here.
+                    </p>
+                    <h3>bayer</h3>
+                    <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star-half-o" ></i>
+                </div>
+             </div>
+            </div>
+        </div>
+         </section>     
+         
+         <section class="cta">
+            <h1>Enroll for courses</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+         </section>
+
+         <section id="ab" class="footer">
+             <h4>
+                 About Us
+             </h4>
+             <p>
+                 Follow us for more updates
+             </p>
+             <div class="icons">
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i> 
+                <i class="fa-brands fa-linkedin"></i>
+             </div>
+             <p>Made with  <i class="fa fa-heart-o" ></i> by Harsha Karimikonda</p>
+         </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    </body>
+</html>
